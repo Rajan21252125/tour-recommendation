@@ -7,7 +7,7 @@ import Cards from "./component/Cards";
 import { motion } from "framer-motion";
 import BottomNavbar from "./component/BottomNavbar";
 
-const API_BASE_URL = "https://tour-recommendation-eight.vercel.app/api";
+const API_BASE_URL = "https://tour-recommendation-117t.onrender.com/api";
 
 const App = () => {
   const [states, setStates] = useState([]); 
