@@ -7,7 +7,7 @@ import Cards from "./component/Cards";
 import { motion } from "framer-motion";
 import BottomNavbar from "./component/BottomNavbar";
 
-const API_BASE_URL = "http://127.0.0.1:5000/api";
+const API_BASE_URL = "https://tour-recommendation-eight.vercel.app/api";
 
 const App = () => {
   const [states, setStates] = useState([]); 
