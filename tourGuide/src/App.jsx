@@ -65,7 +65,7 @@ const App = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-2xl font-bold mb-4 text-center text-green-600">
+        <h1 className="text-xl md:text-2xl font-bold mb-4 text-center text-green-600">
           Find Places to Visit As per Your Interest
         </h1>
         

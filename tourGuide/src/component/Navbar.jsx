@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "re
 
 const Navbar = () => {
     return (
-      <header className="bg-gray-100 text-gray-700 text-sm py-2 px-6 flex justify-between items-center">
+      <header className="bg-gray-100 text-gray-700 text-sm py-2 px-6 justify-between items-center hidden md:flex">
         <div className="flex gap-4 items-center">
           <span>📧 info@example.com</span>
           <span>📞 +012 345 6789</span>
