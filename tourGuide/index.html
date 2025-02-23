@@ -1,10 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image" href="/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour-Ease</title>
+    
+    <!-- 🔹 Favicon Fix -->
+    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
+
+    <!-- 🔹 SEO Meta Tags -->
+    <title>Tour-Ease - Your Personalized Travel Guide</title>
+    <meta name="description" content="Tour-Ease helps you find the best places to visit based on your preferences. Discover hidden gems, historical sites, and adventure spots." />
+    <meta name="keywords" content="travel, tourism, best places, travel guide, vacation, adventure, historical sites" />
+    <meta name="author" content="Tour-Ease Team" />
+    
+    <!-- 🔹 Open Graph (For social media sharing) -->
+    <meta property="og:title" content="Tour-Ease - Your Personalized Travel Guide" />
+    <meta property="og:description" content="Find the perfect destinations based on your interests and travel preferences." />
+    <meta property="og:image" content="/logo.jpg" />
+    <meta property="og:url" content="https://tour-ease.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- 🔹 Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tour-Ease - Your Personalized Travel Guide" />
+    <meta name="twitter:description" content="Discover the best travel destinations tailored to your interests." />
+    <meta name="twitter:image" content="/logo.jpg" />
+
+    <!-- 🔹 Performance & SEO Enhancements -->
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- 🔹 Preload Logo to Avoid Blank Screen -->
+    <link rel="preload" href="/logo.jpg" as="image" />
+
+    <!-- 🔹 Structured Data (JSON-LD for SEO) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Website",
+        "name": "Tour-Ease",
+        "url": "https://tour-ease.netlify.app/",
+        "description": "Tour-Ease helps you find the best travel destinations based on your preferences.",
+        "image": "/logo.jpg"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
