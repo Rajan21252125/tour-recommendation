@@ -6,7 +6,7 @@ import Cards from "./component/Cards";
 import BottomNavbar from "./component/BottomNavbar";
 import Loader from "./component/Loader";  // Import Loader Component
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://tour-recommendation-117t.onrender.com/api";
 
 const App = () => {
   const [states, setStates] = useState([]); 
